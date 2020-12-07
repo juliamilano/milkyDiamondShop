@@ -23,6 +23,13 @@ const store = createStore(
 ReactDOM.render(
     <Provider store={store}>
         <ConnectedRouter history={history}>
+            <div className="menu">
+                <ul className="head__section__menubox">
+                    <a href="/"><li>Main</li></a>
+                    <a href="/products"><li>Products</li></a>
+                    <a href="/contacts"><li>Contacts</li></a>
+                </ul>
+            </div>
             <Layout />
         </ConnectedRouter>
     </Provider>,

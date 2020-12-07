@@ -538,3 +538,20 @@ footer {
     transform: translateY(0px);
 }
 
+.head__section__menubox {
+    height: 50px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    background: #ed88d5;
+}
+.head__section__menubox a > li {
+    background: #92e0ed;
+    list-style: none;
+    display: block;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
